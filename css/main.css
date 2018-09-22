@@ -1,0 +1,52 @@
+* {
+	font-family:"roboto";
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	background: url(https://i.imgur.com/op8UpTV.jpg) no-repeat center fixed;
+	background-size:cover;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	border-radius:3px;
+}
+
+.flex-container > div {
+	background: rgba(255, 255, 255, 0.8);
+	width: 75%;
+	margin: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 3px;
+	font-size: 30px;
+
+}
+
+
+
+h1 {
+	color:gainsboro;
+	text-shadow: 2px 3px 3px #000000;
+	text-align: center;
+
+	}
+
+
+p {
+	font-size: 20px;
+	margin: 20px;
+	text-decoration: small-caps;
+
+}
+
+p>quote {
+	align-content: right;
+}
+
+
+#mtn {
+	width:100%;
+	height: 100%;
+
+}
